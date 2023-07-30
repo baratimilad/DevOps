@@ -24,6 +24,6 @@ jobs:
 
       - name: Build and Publish Docker image
         run: |
-          docker build -t barati/DevOpsPlayground:latest .
-          docker push barati/DevOpsPlayground:latest
+          docker build -t barati/devopsplayground:latest .
+          docker push barati/devopsplayground:latest
 
