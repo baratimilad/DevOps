@@ -17,5 +17,6 @@ jobs:
 
     steps:
       - name: Print OS
-        run: echo "Operating System: ${{ matrix.os }}"
+        run: |
+          echo "Operating System: ${{ matrix.os }}"
 
